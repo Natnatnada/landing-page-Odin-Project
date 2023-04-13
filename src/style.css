@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .flexcontainer {
+    background: rgb(38, 38, 65);
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-around;
+    font-size: 20px;
+  }
+  
+  .imagenlogo {
+    height: 100px;
+    width: auto;
+    border-radius: 50px;
+  }
+  .linkinicio {
+    display: flex;
+    list-style-type: none;
+  }
+  .linkinicio a {
+    color: #fff;
+    margin: 5;
+    padding: 5;
+  }
+  .linkinicio a:hover {
+    background: rgb(147, 147, 196);
+    border-radius: 30px;
+  }
+  .hero {
+    display: flex;
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .registrate {
+    color: #fff;
+    background-color: rgb(84, 84, 131);
+    font-weight: 700;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  .repositorio {
+    align-self: center;
+    margin-right: 20px;
+  }
+  
+  .imagenproyecto {
+    display: flex;
+    height: 300px;
+    width: 300px;
+  }
+  h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    align-self: center;
+    margin-right: 10px;
+    padding: 0;
+    margin: 0%;
+  }
+  .textorepositorio {
+    color: #fff;
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 30px;
+    color: rgb(54, 54, 136);
+    font-weight: 900;
+    text-align: center;
+    margin-left: 100px;
+  
+  }
+  .imagencodigos {
+    border-radius: 90px;
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+  }
+  .projectcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .piedefoto {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 15px;
+  }
+  .flexbox {
+    background: rgb(57, 62, 79);
+  }
+  .quotecontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .blockquote {
+    color: #fff;
+    padding: 10px;
+    font-size: 30px;
+    margin-left: 30px;
+    text-align: right;
+  }
+  .autor {
+    color: #fff;
+    text-align: right;
+  }
+  .callwrapper {
+    margin: 100px;
+  }
+  .callcontainer {
+    background-color: rgb(25, 25, 65);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  .calltext {
+    color: #fff;
+  }
+  .registrofinal{
+   border: 10px solid floralwhite;
+   border-radius: 10px;
+  
+  }
+  .footerwrapper {
+    background-color: rgb(57, 62, 79);
+  }
+  .footertext {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    font-size: 18px;
+    color: #fff;
+  }
+  
